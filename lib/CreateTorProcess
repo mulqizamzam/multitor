@@ -84,6 +84,10 @@ function CreateTorProcess() {
        --NewCircuitPeriod 15 \
        --MaxCircuitDirtiness 15 \
        --NumEntryGuards 8 \
+       --EnforceDistinctSubnets 0 \
+       --OptimisticData 1 \
+       --UseNTorHandshake 1 \
+       --HardwareAccel 1 \
        --CircuitBuildTimeout 5 \
        --ExitRelay 0 \
        --RefuseUnknownExits 0 \
