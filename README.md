@@ -74,13 +74,9 @@ Look also at **[Limitations](#limitations)**.
 It's simple:
 
 ```bash
-# Clone this repository
-git clone https://github.com/trimstray/multitor
 
-# Go into the repository
+git clone https://github.com/mulqizamzam/multitor
 cd multitor
-
-# Install
 ./setup.sh install
 
 # Run the app
